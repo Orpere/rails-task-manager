@@ -1,0 +1,9 @@
+<h1><%= @task.title %></h1>
+<p><%= @task.details %></p>
+
+<div class="btn btn-primary">
+  <%= link_to "edit this task", edit_path, :class => "btn btn-primary" %>
+</div>
+  <div class="btn btn-primary">
+  <%= link_to "Go back", tasks_path , :class => "btn btn-primary"%>
+</div>
